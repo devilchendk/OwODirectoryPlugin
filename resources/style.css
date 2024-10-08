@@ -14,11 +14,14 @@
 .directory-toggle {
     position: absolute;
     right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255,255,255,0);
-    color: rgba(18,18,18,0.8);
-    padding: 4px;
+    top: 0;
+    height: 100vh; /* 高度设为视口高度 */
+    background-color: #f0f0f0; /* 浅灰色填充背景 */
+    color: #000000; /* 图标或文字为黑色 */
+    padding: 0; /* 移除内边距，确保按钮占满高度 */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 图标在垂直和水平方向居中 */
     cursor: pointer;
     transition: all 0.3s ease;
     z-index: 1001;
