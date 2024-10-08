@@ -4,7 +4,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * Typecho 默认主题以及Jasmine主题文章目录：
  * 其他Typecho主题没有验证过...
  * 
- * 详细说明及更新请查阅： <a target="_blank" href="https://github.com/devilchendk" rel="noopener noreferrer">OwODirectoryPlugin</a> 
+ * 详细说明及更新请查阅： <a target="_blank" href="https://github.com/devilchendk/OwODirectoryPlugin" rel="noopener noreferrer">OwODirectoryPlugin</a> 
  * 
  * @package OwODirectoryPlugin
  * @author Bruce Kevin Chen
