@@ -16,6 +16,4 @@ typecho jasmine主题文章目录插件
 演示站：https://www.chendk.info
 
 效果图：
-
-
 ![Uploading CatalogShow.gif…]()
