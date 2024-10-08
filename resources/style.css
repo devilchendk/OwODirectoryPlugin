@@ -1,0 +1,85 @@
+/* Container for the article directory */
+.directory-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+/* Directory toggle button */
+.directory-toggle {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255,255,255,0);
+    color: rgba(18,18,18,0.8);
+    padding: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1001;
+}
+
+/* Moved-left class to move the icon to the left side of the directory */
+.directory-toggle.moved-left {
+    right: 300px;  /* 移动到目录的左边 */
+}
+
+/* Icon size */
+.iconify {
+    font-size: 24px;
+}
+
+/* Article directory container */
+.article-directory {
+    /*background-color: #fff;*/
+    background-color: rgba(255,255,255,0.85);
+    width: 300px;
+    height: 100%;
+    box-shadow: -2px 0px 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    right: -300px; /* Initially hidden */
+    transition: right 0.3s ease;
+}
+
+/* Expanded state */
+.directory-expanded .article-directory {
+    right: 0;
+}
+
+/* Directory icon styling when expanded */
+.directory-expanded #toggle-icon {
+    transform: rotate(180deg);
+}
+
+/* Directory link styles */
+.article-directory a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+.article-directory a:hover {
+    background-color: #f0f0f0;
+    color: #007BFF;
+}
+
+/* Clicked/active effect */
+.article-directory a.active {
+    color: red;
+    font-weight: bold;
+}
+
+/* Active (current) heading link */
+.article-directory a:active {
+    color: red;
+}
