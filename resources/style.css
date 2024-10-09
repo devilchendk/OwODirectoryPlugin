@@ -34,21 +34,21 @@
 
 /* Icon size */
 .iconify {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 /* Article directory container */
 .article-directory {
-    /*background-color: #fff;*/
-    background-color: rgba(255,255,255,0.85);
+    background-color: rgba(255,255,255,0.8);
     width: 300px;
     height: 100%;
     box-shadow: -2px 0px 5px rgba(0,0,0,0.1);
     overflow-y: auto;
     position: absolute;
     top: 0;
-    right: -300px; /* Initially hidden */
+    right: -300px;
     transition: right 0.3s ease;
+    padding-top: 50px;
 }
 
 /* Expanded state */
@@ -68,12 +68,13 @@
     display: block;
     padding: 5px 10px;
     transition: background-color 0.3s, color 0.3s;
+    width: auto;
 }
 
 /* Hover effect */
 .article-directory a:hover {
     background-color: #f0f0f0;
-    color: #007BFF;
+    color: #7A9C96;
 }
 
 /* Clicked/active effect */
@@ -85,4 +86,21 @@
 /* Active (current) heading link */
 .article-directory a:active {
     color: red;
+}
+
+/* Main title styling */
+.toc-main-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    text-align: left;
+    padding: 10px 0px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* 目录字样 */
+.toc-label {
+    font-size: 20px;
+    color: #666;
+    margin: 0 0 18px 0px;
 }
