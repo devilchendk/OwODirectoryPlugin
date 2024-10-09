@@ -1,5 +1,5 @@
 # OwODirectoryPlugin
-typecho jasmine主题文章目录插件
+typecho 默认主题，jasmine主题以及Joe主题文章目录插件
 
 针对Typecho默认主题和Jasmine主题可直接使用，主题的话前往插件的script.js文件把上方代码注释掉，用下方注释掉的代码替换它就行
 用法：将文件解压放在/usr/plugins目录下，后台点击启用
