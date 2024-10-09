@@ -26,7 +26,8 @@ typecho 默认主题，jasmine主题以及Joe主题文章目录插件
 
 Jasmine主题（我使用的外观）下的效果图：
 
-![CatalogShow](https://github.com/user-attachments/assets/9e46ca69-d853-4107-bf91-354ed57a71a8)
+![CatalogShow](https://github.com/user-attachments/assets/a8cfbd3d-0af9-494b-8007-d9e1e6138ab5)
+
 
 
 
