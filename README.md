@@ -14,7 +14,9 @@ typecho jasmine主题文章目录插件
     </div>
 </div>
 默认主题以及Jasmine主题插入示例：
-![Snipaste_2024-10-09_13-52-59](https://github.com/user-attachments/assets/529218a2-44d6-437b-af94-e12a7cd7551c)
+
+![Snipaste_2024-10-09_13-52-59](https://github.com/user-attachments/assets/319bf05d-24fd-4bed-b0fd-47d67abf6fa4)
+
 
 
 演示站：https://www.chendk.info
