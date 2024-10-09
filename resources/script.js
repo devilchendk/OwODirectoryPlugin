@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
 //     const directoryContainer = document.querySelector('.directory-container');
 //     const toggleIcon = document.querySelector('#toggle-icon');
 //     const articleDirectory = document.querySelector('.article-directory');
-//     const contentSelectors = ['.joe_detail', '.post-content', '.entry-content', '.article-content', '.markdown-body', '.content-body'];
+//     const contentSelector = '.joe_detail .joe_detail__article';  // 更加精确地选择文章正文部分
 //     let isExpanded = false;
 
 //     // 初始状态，鼠标悬停提示为 "点击展开目录"
@@ -133,13 +133,8 @@ document.addEventListener('DOMContentLoaded', function () {
 //         }
 //     });
 
-//     // 查找文章内容容器
-//     let content = null;
-//     for (let i = 0; i < contentSelectors.length; i++) {
-//         content = document.querySelector(contentSelectors[i]);
-//         if (content) break;
-//     }
-
+//     // 查找文章内容容器，只查找 .joe_detail__article 内的标题
+//     let content = document.querySelector(contentSelector);
 //     if (!content) {
 //         console.error("未能找到文章内容容器。");
 //         return;
