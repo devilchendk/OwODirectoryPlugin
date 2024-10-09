@@ -28,7 +28,7 @@ Jasmine主题（我使用的外观）下的效果图：
 Joe主题插入示例：
 ![Snipaste_2024-10-09_13-14-49](https://github.com/user-attachments/assets/990d6872-b80a-490f-b7ca-067828208ddb)
 别忘了上方提示的修改script.js文件哦
-Joe主题下的效果图（这个我就是针对用户反馈临时使用的，没做外观的美化，你们可以按照自己想要的模样修改插件外观）
+Joe主题下的效果图（这个我就是针对用户反馈临时使用的，该插件的外观可能在这个主题中不太协调，你们可以按照自己想要的模样修改插件外观）
 ![Snipaste_2024-10-09_13-23-26](https://github.com/user-attachments/assets/bef9fdf4-3d8c-410a-b635-463660ce976a)
 
 
