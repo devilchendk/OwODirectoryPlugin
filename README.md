@@ -26,10 +26,15 @@ Jasmine主题（我使用的外观）下的效果图：
 ![CatalogShow](https://github.com/user-attachments/assets/63b19ae4-ae2b-42fe-b903-82f67b8ca96e)
 
 Joe主题插入示例：
-![Snipaste_2024-10-09_13-14-49](https://github.com/user-attachments/assets/990d6872-b80a-490f-b7ca-067828208ddb)
+
+![Snipaste_2024-10-09_14-55-26](https://github.com/user-attachments/assets/c214bcef-fdcd-4424-b9f7-367b55a6901c)
+
+
 别忘了上方提示的修改script.js文件哦
 Joe主题下的效果图（这个我就是针对用户反馈临时使用的，该插件的外观可能在这个主题中不太协调，你们可以按照自己想要的模样修改插件外观）
-![Snipaste_2024-10-09_13-23-26](https://github.com/user-attachments/assets/bef9fdf4-3d8c-410a-b635-463660ce976a)
+
+![Snipaste_2024-10-09_14-53-50](https://github.com/user-attachments/assets/5b73d76d-a5fa-49eb-9ffc-9b33ec6e10e3)
+
 
 如果你们用了，你们做得更好，可以@我一下，让我参考参考或则直接使用你的🤭
 
