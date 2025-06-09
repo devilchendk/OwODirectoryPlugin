@@ -1,3 +1,5 @@
+# 新账号：https://github.com/kaitoven
+
 # OwODirectoryPlugin
 typecho 默认主题，jasmine主题以及Joe主题文章目录插件
 
